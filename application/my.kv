@@ -1,0 +1,25 @@
+<MyScreenManager>:
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'fon.jpg'
+<BoxLayout>:
+    orientation: 'vertical'
+    padding: 5 , 10
+    spacing: 15
+
+<Button>:
+    id: 'game+'
+    background_color: ('#02034e')
+    color:('#ffffff')
+    size: 70 , 65
+    size_hint: 0.35 , None
+    font_size: sp(33)
+    background_normal: ''
+    background_down: ''
+    background_radius: [100]
+<layout>:
+    pos: self.pos
+    size: self.size
+    source: 'lights.png'
