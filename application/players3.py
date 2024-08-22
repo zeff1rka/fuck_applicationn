@@ -15,21 +15,21 @@ class players3(Screen):
         bl2 = BoxLayout()
         main_bl = BoxLayout(size_hint=(1, None), height=1800)
         
-        bl.add_widget(Label(text= "Название команды"))
-        self.name_team = TextInput(multiline=False)
+        bl.add_widget(Label(text= "Название команды" , color = "#02034e"))
+        self.name_team = TextInput(hint_text= "Приморский край" , multiline=False)
         bl.add_widget(self.name_team)
         
-        bl.add_widget(Label(text= "Название игры"))
+        bl.add_widget(Label(text= "Название игры" , color = "#02034e"))
         self.name_match = TextInput(hint_text= "Первенство России среди кого и какого возраста", multiline=False)
         bl.add_widget(self.name_match)
         
-        bl.add_widget(Label(text= "дата игры"))
+        bl.add_widget(Label(text= "дата игры" , color = "#02034e"))
         self.date_match = TextInput(hint_text= "дд.мм.гггг", multiline=False)
         bl.add_widget(self.date_match)
         
-        gl.add_widget(Label(text= "Имя и Фамилия"))
-        gl.add_widget(Label(text= "Имя и Фамилия"))
-        gl.add_widget(Label(text= "Имя и Фамилия"))
+        gl.add_widget(Label(text= "Имя и Фамилия" , color = "#02034e"))
+        gl.add_widget(Label(text= "Имя и Фамилия" , color = "#02034e"))
+        gl.add_widget(Label(text= "Имя и Фамилия" , color = "#02034e"))
         self.name_1 = TextInput(hint_text= "Имя и Фамилия")
         gl.add_widget(self.name_1)
         self.name_2 = TextInput(hint_text= "Имя и Фамилия")
@@ -37,7 +37,7 @@ class players3(Screen):
         self.name_3 = TextInput(hint_text= "Имя и Фамилия")
         gl.add_widget(self.name_3)
         
-        gl2.add_widget(Label(text="1"))
+        gl2.add_widget(Label(text="1" , color = "#02034e"))
         self.one_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_1)
         self.one_2 = TextInput(hint_text= "0/1/2")
@@ -45,7 +45,7 @@ class players3(Screen):
         self.one_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_3)
         
-        gl2.add_widget(Label(text="2"))
+        gl2.add_widget(Label(text="2" , color = "#02034e"))
         self.two_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_1)
         self.two_2 = TextInput(hint_text= "0/1/2")
@@ -53,7 +53,7 @@ class players3(Screen):
         self.two_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_3)
         
-        gl2.add_widget(Label(text="3"))
+        gl2.add_widget(Label(text="3" , color = "#02034e"))
         self.three_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.three_1)
         self.three_2 = TextInput(hint_text= "0/1/2")
@@ -61,7 +61,7 @@ class players3(Screen):
         self.three_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.three_3)
         
-        gl2.add_widget(Label(text="4"))
+        gl2.add_widget(Label(text="4" , color = "#02034e"))
         self.four_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.four_1)
         self.four_2 = TextInput(hint_text= "0/1/2")
@@ -69,7 +69,7 @@ class players3(Screen):
         self.four_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.four_3)
         
-        gl2.add_widget(Label(text="5"))
+        gl2.add_widget(Label(text="5" , color = "#02034e"))
         self.five_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.five_1)
         self.five_2 = TextInput(hint_text= "0/1/2")
@@ -77,7 +77,7 @@ class players3(Screen):
         self.five_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.five_3)
         
-        gl2.add_widget(Label(text="6"))
+        gl2.add_widget(Label(text="6" , color = "#02034e"))
         self.six_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.six_1)
         self.six_2 = TextInput(hint_text= "0/1/2")
@@ -85,7 +85,7 @@ class players3(Screen):
         self.six_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.six_3)
         
-        gl2.add_widget(Label(text="7"))
+        gl2.add_widget(Label(text="7" , color = "#02034e"))
         self.seven_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.seven_1)
         self.seven_2 = TextInput(hint_text= "0/1/2")
@@ -93,7 +93,7 @@ class players3(Screen):
         self.seven_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.seven_3)
         
-        gl2.add_widget(Label(text="8"))
+        gl2.add_widget(Label(text="8" , color = "#02034e"))
         self.eight_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.eight_1)
         self.eight_2 = TextInput(hint_text= "0/1/2")
@@ -101,7 +101,7 @@ class players3(Screen):
         self.eight_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.eight_3)
         
-        gl2.add_widget(Label(text="9"))
+        gl2.add_widget(Label(text="9" , color = "#02034e"))
         self.nine_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.nine_1)
         self.nine_2 = TextInput(hint_text= "0/1/2")
@@ -109,7 +109,7 @@ class players3(Screen):
         self.nine_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.nine_3)
         
-        gl2.add_widget(Label(text="10"))
+        gl2.add_widget(Label(text="10" , color = "#02034e"))
         self.one_zero_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_zero_1)
         self.one_zero_2 = TextInput(hint_text= "0/1/2")
@@ -117,7 +117,7 @@ class players3(Screen):
         self.one_zero_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_zero_3)
         
-        gl2.add_widget(Label(text="11"))
+        gl2.add_widget(Label(text="11" , color = "#02034e"))
         self.one_one_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_one_1)
         self.one_one_2 = TextInput(hint_text= "0/1/2")
@@ -125,7 +125,7 @@ class players3(Screen):
         self.one_one_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_one_3)
         
-        gl2.add_widget(Label(text="12"))
+        gl2.add_widget(Label(text="12" , color = "#02034e"))
         self.one_two_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_two_1)
         self.one_two_2 = TextInput(hint_text= "0/1/2")
@@ -133,7 +133,7 @@ class players3(Screen):
         self.one_two_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_two_3)
         
-        gl2.add_widget(Label(text="13"))
+        gl2.add_widget(Label(text="13" , color = "#02034e"))
         self.one_three_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_three_1)
         self.one_three_2 = TextInput(hint_text= "0/1/2")
@@ -141,7 +141,7 @@ class players3(Screen):
         self.one_three_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_three_3)
         
-        gl2.add_widget(Label(text="14"))
+        gl2.add_widget(Label(text="14" , color = "#02034e"))
         self.one_four_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_four_1)
         self.one_four_2 = TextInput(hint_text= "0/1/2")
@@ -149,7 +149,7 @@ class players3(Screen):
         self.one_four_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_four_3)
         
-        gl2.add_widget(Label(text="15"))
+        gl2.add_widget(Label(text="15" , color = "#02034e"))
         self.one_five_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_five_1)
         self.one_five_2 = TextInput(hint_text= "0/1/2")
@@ -157,7 +157,7 @@ class players3(Screen):
         self.one_five_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_five_3)
         
-        gl2.add_widget(Label(text="16"))
+        gl2.add_widget(Label(text="16" , color = "#02034e"))
         self.one_six_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_six_1)
         self.one_six_2 = TextInput(hint_text= "0/1/2")
@@ -165,7 +165,7 @@ class players3(Screen):
         self.one_six_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_six_3)
         
-        gl2.add_widget(Label(text="17"))
+        gl2.add_widget(Label(text="17" , color = "#02034e"))
         self.one_seven_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_seven_1)
         self.one_seven_2 = TextInput(hint_text= "0/1/2")
@@ -173,7 +173,7 @@ class players3(Screen):
         self.one_seven_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_seven_3)
         
-        gl2.add_widget(Label(text="18"))
+        gl2.add_widget(Label(text="18" , color = "#02034e"))
         self.one_eight_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_eight_1)
         self.one_eight_2 = TextInput(hint_text= "0/1/2")
@@ -181,7 +181,7 @@ class players3(Screen):
         self.one_eight_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_eight_3)
         
-        gl2.add_widget(Label(text="19"))
+        gl2.add_widget(Label(text="19" , color = "#02034e"))
         self.one_nine_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_nine_1)
         self.one_nine_2 = TextInput(hint_text= "0/1/2")
@@ -189,7 +189,7 @@ class players3(Screen):
         self.one_nine_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.one_nine_3)
         
-        gl2.add_widget(Label(text="20"))
+        gl2.add_widget(Label(text="20" , color = "#02034e"))
         self.two_zero_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_zero_1)
         self.two_zero_2 = TextInput(hint_text= "0/1/2")
@@ -197,7 +197,7 @@ class players3(Screen):
         self.two_zero_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_zero_3)
         
-        gl2.add_widget(Label(text="21"))
+        gl2.add_widget(Label(text="21" , color = "#02034e"))
         self.two_one_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_one_1)
         self.two_one_2 = TextInput(hint_text= "0/1/2")
@@ -205,7 +205,7 @@ class players3(Screen):
         self.two_one_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_one_3)
         
-        gl2.add_widget(Label(text="22"))
+        gl2.add_widget(Label(text="22" , color = "#02034e"))
         self.two_two_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_two_1)
         self.two_two_2 = TextInput(hint_text= "0/1/2")
@@ -213,7 +213,7 @@ class players3(Screen):
         self.two_two_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_two_3)
         
-        gl2.add_widget(Label(text="23"))
+        gl2.add_widget(Label(text="23" , color = "#02034e"))
         self.two_three_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_three_1)
         self.two_three_2 = TextInput(hint_text= "0/1/2")
@@ -221,7 +221,7 @@ class players3(Screen):
         self.two_three_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_three_3)
         
-        gl2.add_widget(Label(text="24"))
+        gl2.add_widget(Label(text="24" , color = "#02034e"))
         self.two_four_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_four_1)
         self.two_four_2 = TextInput(hint_text= "0/1/2")
@@ -229,7 +229,7 @@ class players3(Screen):
         self.two_four_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_four_3)
         
-        gl2.add_widget(Label(text="25"))
+        gl2.add_widget(Label(text="25" , color = "#02034e"))
         self.two_five_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_five_1)
         self.two_five_2 = TextInput(hint_text= "0/1/2")
@@ -237,7 +237,7 @@ class players3(Screen):
         self.two_five_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_five_3)
         
-        gl2.add_widget(Label(text="26"))
+        gl2.add_widget(Label(text="26" , color = "#02034e"))
         self.two_six_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_six_1)
         self.two_six_2 = TextInput(hint_text= "0/1/2")
@@ -245,7 +245,7 @@ class players3(Screen):
         self.two_six_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_six_3)
         
-        gl2.add_widget(Label(text="27"))
+        gl2.add_widget(Label(text="27" , color = "#02034e"))
         self.two_seven_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_seven_1)
         self.two_seven_2 = TextInput(hint_text= "0/1/2")
@@ -253,7 +253,7 @@ class players3(Screen):
         self.two_seven_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_seven_3)
         
-        gl2.add_widget(Label(text="28"))
+        gl2.add_widget(Label(text="28" , color = "#02034e"))
         self.two_eight_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_eight_1)
         self.two_eight_2 = TextInput(hint_text= "0/1/2")
@@ -261,7 +261,7 @@ class players3(Screen):
         self.two_eight_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_eight_3)
         
-        gl2.add_widget(Label(text="29"))
+        gl2.add_widget(Label(text="29" , color = "#02034e"))
         self.two_nine_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_nine_1)
         self.two_nine_2 = TextInput(hint_text= "0/1/2")
@@ -269,7 +269,7 @@ class players3(Screen):
         self.two_nine_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.two_nine_3)
         
-        gl2.add_widget(Label(text="30"))
+        gl2.add_widget(Label(text="30" , color = "#02034e"))
         self.three_zero_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.three_zero_1)
         self.three_zero_2 = TextInput(hint_text= "0/1/2")
@@ -277,7 +277,7 @@ class players3(Screen):
         self.three_zero_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.three_zero_3)
         
-        gl2.add_widget(Label(text="extra-1"))
+        gl2.add_widget(Label(text="extra-1" , color = "#02034e"))
         self.extra_one_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_one_1)
         self.extra_one_2 = TextInput(hint_text= "0/1/2")
@@ -285,7 +285,7 @@ class players3(Screen):
         self.extra_one_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_one_3)
         
-        gl2.add_widget(Label(text="extra-2"))
+        gl2.add_widget(Label(text="extra-2" , color = "#02034e"))
         self.extra_two_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_two_1)
         self.extra_two_2 = TextInput(hint_text= "0/1/2")
@@ -293,7 +293,7 @@ class players3(Screen):
         self.extra_two_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_two_3)
         
-        gl2.add_widget(Label(text="extra-3"))
+        gl2.add_widget(Label(text="extra-3" , color = "#02034e"))
         self.extra_three_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_three_1)
         self.extra_three_2 = TextInput(hint_text= "0/1/2")
@@ -301,7 +301,7 @@ class players3(Screen):
         self.extra_three_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_three_3)
         
-        gl2.add_widget(Label(text="extra-4"))
+        gl2.add_widget(Label(text="extra-4" , color = "#02034e"))
         self.extra_four_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_four_1)
         self.extra_four_2 = TextInput(hint_text= "0/1/2")
@@ -309,7 +309,7 @@ class players3(Screen):
         self.extra_four_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_four_3)
         
-        gl2.add_widget(Label(text="extra-5"))
+        gl2.add_widget(Label(text="extra-5" , color = "#02034e"))
         self.extra_five_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_five_1)
         self.extra_five_2 = TextInput(hint_text= "0/1/2")
@@ -317,7 +317,7 @@ class players3(Screen):
         self.extra_five_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_five_3)
         
-        gl2.add_widget(Label(text="extra-6"))
+        gl2.add_widget(Label(text="extra-6" , color = "#02034e"))
         self.extra_six_1 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_six_1)
         self.extra_six_2 = TextInput(hint_text= "0/1/2")
@@ -325,29 +325,6 @@ class players3(Screen):
         self.extra_six_3 = TextInput(hint_text= "0/1/2")
         gl2.add_widget(self.extra_six_3)
         
-        gl2.add_widget(Label(text="extra-7"))
-        self.extra_seven_1 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_seven_1)
-        self.extra_seven_2 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_seven_2)
-        self.extra_seven_3 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_seven_3)
-        
-        gl2.add_widget(Label(text="extra-8"))
-        self.extra_eight_1 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_eight_1)
-        self.extra_eight_2 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_eight_2)
-        self.extra_eight_3 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_eight_3)
-        
-        gl2.add_widget(Label(text="extra-9"))
-        self.extra_nine_1 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_nine_1)
-        self.extra_nine_2 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_nine_2)
-        self.extra_nine_3 = TextInput(hint_text= "0/1/2")
-        gl2.add_widget(self.extra_nine_3)
         
         end = Button(text= "Рассчёт")
         end.bind(on_release=self.math_operation)

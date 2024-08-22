@@ -10,18 +10,18 @@ class player_plus(Screen):
         super().__init__(**kwargs)
         bl = BoxLayout()
                 
-        high_text = Label(text= "Регистрация")
+        high_text = Label(text= "Регистрация" , color = "#02034e")
         bl.add_widget(high_text)
         
-        bl.add_widget(Label(text="Имя и Фамилия"))        
-        self.namer = TextInput(hint_text= "", multiline=False)
+        bl.add_widget(Label(text="Имя и Фамилия" , color = "#02034e"))        
+        self.namer = TextInput(hint_text= "", multiline=False , )
         bl.add_widget(self.namer)
         
-        bl.add_widget(Label(text= "Дата рождения"))
+        bl.add_widget(Label(text= "Дата рождения" , color = "#02034e"))
         self.date = TextInput(hint_text= "дд.мм.гггг", multiline=False)
         bl.add_widget(self.date)
         
-        bl.add_widget(Label(text= "Пол"))
+        bl.add_widget(Label(text= "Пол" , color = "#02034e"))
         self.gender = TextInput(hint_text= "М", multiline=False)
         bl.add_widget(self.gender)
         
